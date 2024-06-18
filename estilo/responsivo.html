@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste responsividade</title>
+    
+    <style>
+        
+        body{
+            background-image: linear-gradient(to left, pink, blue);
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+           min-width: 280px;
+           max-width: 800px;
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+        iframe{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed explicabo illo voluptatem, modi nihil vitae amet quisquam consectetur pariatur totam. Cum laudantium laboriosam excepturi voluptatem non? Sapiente rem illo tenetur!</p>
+        <picture>
+            <source media="(max-width:600px )" srcset="imagnes/irina-blok-pq.jpg">
+            <img src="imagnes/irina-blok.jpg" alt=""></picture>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo mollitia molestias culpa illum excepturi minima reprehenderit voluptates dolorem consectetur. Ipsum cupiditate eum numquam nulla ab, error expedita quasi soluta veritatis.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NOK6EsXNWRU?si=yMu7rWtKmRfYaqby" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </main>
+</body>
+</html>

@@ -1,0 +1,119 @@
+@charset "UTF8";
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+
+}
+:root{
+    --cor0: #F3EFE5;
+    --cor01:#E9DFC7;
+    --cor03:#CEBEA3;
+    --cor04:#BFCCA8;
+    --cor05:#AF9C7C;
+    --fonte-padrao: arial, verdana, helvetica, sans-serif;
+
+}
+*{
+    margin: 0px;
+    padding:  0px;
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+
+}
+div.video{
+    background-color: var(--cor05);
+    margin-bottom: 30px;
+    margin: 00px -2px;
+    padding: 20px;
+    padding-bottom: 56%;
+    position: relative;
+}
+div.video>iframe{
+     position: absolute;
+     top: 5%;
+     left:5% ;
+     width: 90%;
+     height:90% ;
+
+}
+header{
+   background-image: linear-gradient(to bottom,var(--cor01), var(--cor05));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+header > h1{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.77);
+    
+    
+}
+
+    
+
+header> p {
+    color: white
+    ;
+    font-size: 1.2em;
+    max-width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.77);
+}
+nav{
+    background-color: var(--cor05);
+    padding: 10px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.191);
+}
+nav> a{
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+
+}
+nav>a:hover{
+    background-color: var(--cor01);
+    color: var(--cor05);
+}
+main{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+main  h1{
+    color: var(--cor05);
+    margin: 0px 20px;
+}
+main h2{
+    margin:  0px 20px;
+    padding-top: 0px;
+}
+main img{
+       width: 100%;
+       
+
+}
+main strong{
+    color: black;
+    font-weight: bold;
+    background-color: var(--cor01);
+    padding: 2px 6px;
+}
+footer{
+    background-color: var(--cor05);
+    color: white;
+
+}
+
