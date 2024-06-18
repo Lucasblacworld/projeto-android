@@ -87,6 +87,9 @@ nav>a:hover{
     background-color: var(--cor01);
     color: var(--cor05);
 }
+.container{
+    margin: 0 40px;
+}
 main{
     background-color: white;
     min-width: 300px;
