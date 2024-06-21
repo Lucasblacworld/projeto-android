@@ -81,6 +81,9 @@ nav> a{
     text-decoration: none;
     font-weight: bold;
     transition-duration: .5s;
+    text-align: auto;
+    min-width: min-content;
+    max-width: max-content;
 
 }
 nav>a:hover{
